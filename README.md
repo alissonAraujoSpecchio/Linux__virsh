@@ -34,3 +34,7 @@ Shutdown a VM
 virsh shutdown <domain>
   
 _See more: virsh help or virt-install help_
+
+## Managing hardware of created VM
+
+https://www.thegeekstuff.com/2015/02/add-memory-cpu-disk-to-kvm-vm/
