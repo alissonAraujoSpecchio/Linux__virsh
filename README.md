@@ -35,10 +35,12 @@ virsh shutdown <domain>
 
 ## Remove VM
 
+```
 virsh shutdown disk_size_test
 virsh destroy disk_size_test
 virsh undefine disk_size_test
 rm -rf /var/lib/libvirt/images/disk_size_test.qcow2
+```
   
 _See more: virsh help or virt-install help_
 
