@@ -16,7 +16,7 @@ virt-install --name=ubuntu_test \
 ## Creating vm with two default NICs
 
 ```
-virt-install --name=disk_size_test \
+virt-install --name=ubuntu_test \
 --vcpus=1 \
 --memory=2048 \
 --cdrom=/home/alisson-araujo/Downloads/ISOs/ubuntu-20.04.4-live-server-amd64.iso \
@@ -36,10 +36,10 @@ virsh shutdown <domain>
 ## Remove VM
 
 ```
-virsh shutdown disk_size_test
-virsh destroy disk_size_test
-virsh undefine disk_size_test
-rm -rf /var/lib/libvirt/images/disk_size_test.qcow2
+virsh shutdown ubuntu_test
+virsh destroy ubuntu_test
+virsh undefine ubuntu_test
+rm -rf /var/lib/libvirt/images/ubuntu_test.qcow2
 ```
   
 _See more: virsh help or virt-install help_
