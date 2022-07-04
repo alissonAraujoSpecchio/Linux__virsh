@@ -39,7 +39,7 @@ virsh shutdown <domain>
 virsh shutdown ubuntu_test
 virsh destroy ubuntu_test
 virsh undefine ubuntu_test
-rm -rf /var/lib/libvirt/images/ubuntu_test.qcow2
+sudo rm -rf /var/lib/libvirt/images/ubuntu_test.qcow2
 ```
   
 _See more: virsh help or virt-install help_
