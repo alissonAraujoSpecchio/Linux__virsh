@@ -47,3 +47,7 @@ _See more: virsh help or virt-install help_
 ## Managing hardware of created VM
 
 https://www.thegeekstuff.com/2015/02/add-memory-cpu-disk-to-kvm-vm/
+
+## Increase Disk Size:
+
+https://computingforgeeks.com/how-to-extend-increase-kvm-virtual-machine-disk-size/
