@@ -33,6 +33,25 @@ virsh list --all
 
 virsh shutdown <domain>
 
+## Snapshots
+
+List snapshots:
+```
+virsh snapshot-list <domain>
+```
+Create a snapshot:
+```
+virsh snapshot-create-as <domain> <snapshot-name>
+```
+Revert to a snapshot
+```
+virsh snapshot-revert <domain> <snapshot-name>
+```
+Delete a snapshot
+```
+virsh snapshot-delete <domain> <snapshot-name>
+```
+
 ## Remove VM
 
 ```
